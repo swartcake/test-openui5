@@ -1,0 +1,55 @@
+{
+  "name": "app-test",
+  "version": "0.1.0",
+  "description": "App for test of openui5 and oData server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abenhamdine/test-openui5.git"
+  },
+  "engines": {
+    "node": ">=5.1"
+  },
+  "author": "Arnaud Benhamdine",
+  "license": "LGPL",
+  "bugs": {
+    "url": "https://github.com/abenhamdine/test-openui5/issues"
+  },
+  "homepage": "https://github.com/abenhamdine/test-openui5",
+  "devDependencies": {
+    "chai-http": "^1",
+    "eslint": "^2",
+    "it-each": "^0",
+    "jsdoc": "^3",
+    "mocha": "^2"
+  },
+  "dependencies": {
+    "async": "^1",
+    "body-parser": "~1.13.3",
+    "chai": "~3",
+    "chance": "^1",
+    "colors": "~1",
+    "compression": "^1",
+    "errorhandler": "~1",
+    "express": "~4.13.3",
+    "express-session": "~1.11.3",
+    "eyes": "~0",
+    "lodash": "~4",
+    "mathjs": "^2",
+    "method-override": "~2.3.5",
+    "moment": "~2",
+    "morgan": "~1.6.1",
+    "multer": "^0.1.8",
+    "node-postgres-named": "^2",
+    "pg": "~4.4",
+    "pg-format": "^1.0",
+    "serve-favicon": "^2.2.0",
+    "serve-index": "^1.6.3",
+    "serve-static": "^1.9.2",
+    "tty-table": "^1",
+    "uid-safe": "^2"
+  }
+}
