@@ -4,10 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta charset="UTF-8">
     <title>Test openui5</title>
-    <!--
+
     <script
         id="sap-ui-bootstrap"
-        src='sdk\openui5-sdk-1.36.4/resources/sap-ui-core.js'
+        src='sdk/openui5-sdk-1.36.4/resources/sap-ui-core.js'
         data-sap-ui-theme="sap_bluecrystal"
         data-sap-ui-libs="sap.m"
         data-sap-ui-compatVersion="edge"
@@ -16,7 +16,7 @@
             "myApp": "webapp/"
          }'>
     </script>
-	-->
+	<!--
     <script
         id="sap-ui-bootstrap"
         src='https://openui5.hana.ondemand.com/resources/sap-ui-core.js'
@@ -28,12 +28,12 @@
             "myApp": "webapp/"
          }'>
     </script>
-
+    -->
     <script>
         sap.ui.getCore().attachInit(function () {
         	alert("UI5 is ready");
            sap.ui.xmlview({
-               viewName : "myApp.view.App"
+               viewName : "myApp.view.Main"
             }).placeAt("content");
 
         });
